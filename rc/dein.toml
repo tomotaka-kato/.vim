@@ -1,0 +1,57 @@
+[[plugins]]
+repo    = 'Shougo/dein.vim'
+
+[[plugins]]
+repo    = 'tomasr/molokai'
+
+[[plugins]]
+repo    = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo    = 'djjcast/mirodark'
+
+[[plugins]]
+repo    = 'vim-scripts/Zenburn'
+
+[[plugins]]
+repo    = 'Shougo/vimproc.vim'
+if      = "has('mac') || has('unix')"
+build   = 'make'
+
+[[plugins]]
+repo    = 'Shougo/unite.vim'
+
+[[plugins]]
+repo    = 'Shougo/vimshell.vim'
+
+[[plugins]]
+repo    = 'Shougo/vimfiler'
+depends = 'unite.vim'
+
+[[plugins]]
+repo    = 'junegunn/vim-easy-align'
+
+[[plugins]] # Grep tool. I want to use hight way but windows can't use it.
+repo    = 'rking/ag.vim'
+
+[[plugins]] # Ctrl-pでファイルの曖昧検索
+repo    = 'ctrlpvim/ctrlp.vim'
+
+
+[[plugins]] #changes status line
+repo    = 'bling/vim-airline'
+
+[[plugins]]
+repo    = 'tpope/vim-surround'
+
+[[plugins]]
+repo    = 'Shougo/unite-outline'
+
+[[plugins]]
+repo    = 'pasela/unite-webcolorname'
+
+[[plugins]]
+repo    = 'jiangmiao/auto-pairs'
+
+[[plugins]]
+repo = 'katono/rogue.vim'

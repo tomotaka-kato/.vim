@@ -1,0 +1,48 @@
+[[plugins]]
+repo = 'Shougo/neocomplete'
+if = 'has("lua")'
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+on_i = 1
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = ['toml']
+
+[[plugins]]
+repo = 'derekwyatt/vim-scala'
+on_ft= ['scala', 'play2-routes',  'play2-conf', 'html']
+
+[[plugins]] # playframeworkのsyntax highlight
+repo    = 'gre/play2vim'
+on_ft= ['scala', 'play2-routes',  'play2-conf', 'html']
+
+[[plugins]]
+repo = 'Quramy/tsuquyomi'
+on_ft = ['typescript']
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft = ['typescript']
+
+[[plugins]]
+repo = 'jason0x43/vim-js-indent'
+on_ft = ['typescript']
+
+[[plugins]] # lessファイルの保存時に自動でコンパイル
+repo = 'vitalk/vim-lesscss'
+on_ft = ['less']
+
+[[plugins]] # 16進数のカラーコードの色をハイライトとして表示する
+repo = 'lilydjwg/colorizer'
+on_ft = ['css','less']
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']

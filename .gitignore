@@ -1,0 +1,8 @@
+dein/
+tmp/backup/*
+tmp/swap/*
+tmp/undo/*
+
+!tmp/backup/.gitkeep
+!tmp/swap/.gitkeep
+!tmp/undo/.gitkeep
