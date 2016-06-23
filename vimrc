@@ -129,6 +129,7 @@ set hidden " 保存前でも別ファイルを開ける
 set autoread " 外部でファイルに変更がされた場合に読みなおす
 set visualbell t_vb=
 :set helplang=en,ja " ヘルプを英語優先で開く
+let loaded_matchparen = 1 " 括弧のハイライトをなくす
 
 
 """""""""""""""""""""""""""""""
