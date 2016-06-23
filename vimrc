@@ -101,7 +101,8 @@ set cursorline
 set incsearch
 set hlsearch
 if !has("gui_running")
-	colorscheme pablo
+	set background=dark
+	colorscheme mirodark
 endif
 
 " フォーマット
