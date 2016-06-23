@@ -56,5 +56,8 @@ repo    = 'ujihisa/unite-colorscheme'
 [[plugins]]
 repo    = 'jiangmiao/auto-pairs'
 
-[[plugins]]
-repo = 'katono/rogue.vim'
+[[plugins]] # タブごとにカレントディレクトリを管理
+repo = 'kana/vim-tabpagecd'
+
+
+
