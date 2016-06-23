@@ -51,6 +51,9 @@ repo    = 'Shougo/unite-outline'
 repo    = 'pasela/unite-webcolorname'
 
 [[plugins]]
+repo    = 'ujihisa/unite-colorscheme'
+
+[[plugins]]
 repo    = 'jiangmiao/auto-pairs'
 
 [[plugins]]

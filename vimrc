@@ -101,7 +101,7 @@ set cursorline
 set incsearch
 set hlsearch
 if !has("gui_running")
-	colorscheme desert
+	colorscheme pablo
 endif
 
 " フォーマット
