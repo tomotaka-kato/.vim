@@ -100,6 +100,7 @@ syntax on
 set cursorline
 set incsearch
 set hlsearch
+set laststatus=2
 if !has("gui_running")
 	set background=dark
 	colorscheme mirodark
@@ -118,6 +119,10 @@ set shiftwidth=2
 set autoindent
 filetype plugin indent on " filetype プラグインによる indent を on にする
 set formatoptions-=ro " 開業時にコメントアウトするのはなくす
+
+" マウス
+set mouse=a
+set ttymouse=xterm2
 
 "その他
 set backspace=indent,eol,start " インサートモード時にバックスペースを使う
