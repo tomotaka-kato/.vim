@@ -103,7 +103,7 @@ set hlsearch
 set laststatus=2
 if !has("gui_running")
 	set background=dark
-	colorscheme mirodark
+	colorscheme hybrid
 endif
 
 " フォーマット
