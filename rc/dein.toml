@@ -57,10 +57,6 @@ repo    = 'ujihisa/unite-colorscheme'
 depends = 'unite.vim'
 
 [[plugins]]
-repo    = 'osyo-manga/unite-highlight'
-depends = 'unite.vim'
-
-[[plugins]]
 repo    = 'jiangmiao/auto-pairs'
 
 [[plugins]] # タブごとにカレントディレクトリを管理
