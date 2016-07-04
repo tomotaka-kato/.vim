@@ -46,12 +46,19 @@ repo    = 'tpope/vim-surround'
 
 [[plugins]]
 repo    = 'Shougo/unite-outline'
+depends = 'unite.vim'
 
 [[plugins]]
 repo    = 'pasela/unite-webcolorname'
+depends = 'unite.vim'
 
 [[plugins]]
 repo    = 'ujihisa/unite-colorscheme'
+depends = 'unite.vim'
+
+[[plugins]]
+repo    = 'osyo-manga/unite-highlight'
+depends = 'unite.vim'
 
 [[plugins]]
 repo    = 'jiangmiao/auto-pairs'
