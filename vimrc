@@ -102,8 +102,8 @@ set incsearch
 set hlsearch
 set laststatus=2
 if !has("gui_running") && !has('win64')
-	// set background=dark
-	// colorscheme hybrid
+	set background=dark
+	colorscheme hybrid
 endif
 
 " フォーマット
