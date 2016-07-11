@@ -62,5 +62,5 @@ repo    = 'jiangmiao/auto-pairs'
 [[plugins]] # タブごとにカレントディレクトリを管理
 repo = 'kana/vim-tabpagecd'
 
-
-
+[[plugins]] # gitをvimから操作できるようにする。
+repo = 'tpope/vim-fugitive'
