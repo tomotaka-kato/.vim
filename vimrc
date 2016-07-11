@@ -101,11 +101,9 @@ set cursorline
 set incsearch
 set hlsearch
 set laststatus=2
-if !has("gui_running") && !has('win64')
-	set term=pcansi
-	set t_Co=256
+if !has("gui_running")
 	set background=dark
-	colorscheme hybrid
+	colorscheme default
 endif
 
 " フォーマット
