@@ -8,7 +8,7 @@ endif
 
 " 見た目を設定
 if has('win32') || has ('win64')
-	autocmd guienter * set transparency=220
+	" autocmd guienter * set transparency=220
 endif
 
 set encoding=utf8
