@@ -101,9 +101,6 @@ set cursorline
 set incsearch
 set hlsearch
 set laststatus=2
-if !has("gui_running")
-	set background=dark
-	colorscheme default
 endif
 
 " フォーマット
