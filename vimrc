@@ -101,7 +101,6 @@ set cursorline
 set incsearch
 set hlsearch
 set laststatus=2
-endif
 
 " フォーマット
 set formatoptions=q
