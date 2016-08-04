@@ -101,6 +101,8 @@ set cursorline
 set incsearch
 set hlsearch
 set laststatus=2
+set background=dark
+colorscheme hybrid
 
 " フォーマット
 set formatoptions=q
