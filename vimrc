@@ -97,6 +97,7 @@ set fileencodings=ucs-bom,utf-8,cp932,default,latin1
 
 "表示
 syntax on
+set t_Co=256
 set cursorline
 set incsearch
 set hlsearch
