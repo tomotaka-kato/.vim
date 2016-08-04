@@ -66,9 +66,6 @@ endif
 "				vim setting				"
 """""""""""""""""""""""""""
 
-" ftditectの読み込み
-let &runtimepath = &runtimepath . "," . s:vimdir . "/ftdetect"
-
 "バックアップ
 set backup
 if has ('win64')

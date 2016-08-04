@@ -35,6 +35,10 @@ on_ft = ['typescript']
 repo = 'jason0x43/vim-js-indent'
 on_ft = ['typescript']
 
+[[plugins]]
+repo = 'groenewege/vim-less'
+on_ft = ['less', 'css']
+
 [[plugins]] # lessファイルの保存時に自動でコンパイル
 repo = 'vitalk/vim-lesscss'
 on_ft = ['less']
