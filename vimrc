@@ -67,7 +67,7 @@ endif
 """""""""""""""""""""""""""
 
 " ftditectの読み込み
-runtime! ftdetect/*.vim
+let &runtimepath = &runtimepath . "," . s:vimdir . "/ftditect"
 
 "バックアップ
 set backup
