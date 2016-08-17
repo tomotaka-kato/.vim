@@ -104,6 +104,7 @@ set hlsearch
 set laststatus=2
 set background=dark
 colorscheme hybrid
+let g:seiya_auto_enable = !has('gui_running') "ターミナル版の背景をターミナルと同じにする
 
 " フォーマット
 set formatoptions=q

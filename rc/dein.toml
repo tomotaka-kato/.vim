@@ -64,3 +64,6 @@ repo = 'kana/vim-tabpagecd'
 
 [[plugins]] # gitをvimから操作できるようにする。
 repo = 'tpope/vim-fugitive'
+
+[[plugins]] # ターミナル版vimの背景をターミナルと同じにする
+repo = 'miyakogi/seiya.vim'
