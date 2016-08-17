@@ -98,17 +98,15 @@ set fileencodings=ucs-bom,utf-8,cp932,default,latin1
 "表示
 syntax on
 set t_Co=256
-set cursorline
 set incsearch
 set hlsearch
 set laststatus=2
 set background=dark
 colorscheme hybrid
-let g:seiya_auto_enable = !has('gui_running') "ターミナル版の背景をターミナルと同じにする
+let g:seiya_auto_enable = 1 "ターミナル版の背景をターミナルと同じにする
 
 " フォーマット
 set formatoptions=q
-set number
 set smarttab
 set nowrap
 set nrformats=
