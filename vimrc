@@ -134,6 +134,16 @@ set visualbell t_vb=
 :set helplang=en,ja " ヘルプを英語優先で開く
 let loaded_matchparen = 1 " 括弧のハイライトをなくす
 
+" 行末のスーペースをハイライト
+augroup HighlightTrailingSpaces
+	autocmd!
+	autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
+	autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
+augroup END
+
+" 末尾の余分な業をハイライト
+set listchars += tail:_
+
 
 """""""""""""""""""""""""""""""
 "				plugin setting				"
