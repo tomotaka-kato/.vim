@@ -142,7 +142,7 @@ augroup HighlightTrailingSpaces
 augroup END
 
 " 末尾の余分な業をハイライト
-set listchars += tail:_
+set listchars += trail:_
 
 
 """""""""""""""""""""""""""""""
