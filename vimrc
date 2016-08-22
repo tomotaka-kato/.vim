@@ -141,8 +141,6 @@ augroup HighlightTrailingSpaces
 	autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
 
-" 末尾の余分な業をハイライト
-set listchars += trail:_
 
 
 """""""""""""""""""""""""""""""
