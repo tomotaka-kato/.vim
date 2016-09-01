@@ -133,6 +133,8 @@ set autoread " 外部でファイルに変更がされた場合に読みなお�
 set visualbell t_vb=
 :set helplang=en,ja " ヘルプを英語優先で開く
 let loaded_matchparen = 1 " 括弧のハイライトをなくす
+set ignorecase
+set smartcase
 
 " 行末のスーペースをハイライト
 augroup HighlightTrailingSpaces
