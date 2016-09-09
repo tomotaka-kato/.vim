@@ -117,6 +117,7 @@ set shiftwidth=2
 set autoindent
 filetype plugin indent on " filetype プラグインによる indent を on にする
 set formatoptions-=ro " 開業時にコメントアウトするのはなくす
+let g:html_indent_inctags = "html,body,head,tbody" "HTMlのインデント
 
 " マウス
 set mouse=a
