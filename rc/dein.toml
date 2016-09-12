@@ -67,3 +67,9 @@ repo = 'tpope/vim-fugitive'
 
 [[plugins]] # ターミナル版vimの背景をターミナルと同じにする
 repo = 'miyakogi/seiya.vim'
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+
+[[plugins]]
+repo = 'mxw/vim-jsx'

@@ -292,3 +292,7 @@ let g:lesscss_on = 1
 let g:unite_split_rule = 'botright'
 noremap <SPACE>uo :Unite -vertical -winwidth=40 outline<Return>
 """""""""""""""""""""""""""""""
+
+"""" vim-json """"""
+let g:vim_json_syntax_conceal = 0
+"""""""""""""""""""
