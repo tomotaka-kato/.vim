@@ -144,6 +144,15 @@ augroup HighlightTrailingSpaces
 	autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
 
+"Linuxの場合はviminfoを用いてヤンクデータを共有
+let OSTYPE = system('uname')
+if OSTYPE == "Linux\n"
+	noremap <SPACE>y y:wv<CR>
+	noremap <SPACE>p :rv!<CR>p
+endif
+
+set viminfo='50,\"3000,:0,n~/.viminfo'
+
 
 
 """""""""""""""""""""""""""""""
@@ -295,4 +304,9 @@ noremap <SPACE>uo :Unite -vertical -winwidth=40 outline<Return>
 
 """" vim-json """"""
 let g:vim_json_syntax_conceal = 0
+"""""""""""""""""""
+
+"""" vim-jsx """"""
+" js 拡張子でも有効にする
+let g:jsx_ext_required = 0
 """""""""""""""""""
