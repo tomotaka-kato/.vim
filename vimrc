@@ -308,5 +308,16 @@ let g:vim_json_syntax_conceal = 0
 
 """" vim-jsx """"""
 " js 拡張子でも有効にする
-let g:jsx_ext_required = 0
+" let g:jsx_ext_required = 0
 """""""""""""""""""
+
+"""" scalafmg """
+noremap <F5> :Autoformat<CR>
+let g:formatdef_scalafmt = "'scalafmt'"
+let g:formatters_scala = ['scalafmt']
+"""""""""""""""""""""""""""""""
+
+"""""""""" simple-javascript-indenter"""""""""""
+let g:SimpleJsIndenter_CaseIndentLevel = -1
+""""""""""""""""""""""""""""""""""""""""""""""""
+
