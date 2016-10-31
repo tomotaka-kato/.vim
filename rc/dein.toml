@@ -72,7 +72,4 @@ repo = 'miyakogi/seiya.vim'
 repo = 'pangloss/vim-javascript'
 
 [[plugins]]
-repo = 'mxw/vim-jsx'
-
-[[plugins]]
 repo = 'Chiel92/vim-autoformat'
