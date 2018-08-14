@@ -7,3 +7,5 @@ tmp/undo/*
 !tmp/undo/.gitkeep
 
 pack/volt/
+
+.DS_Store
