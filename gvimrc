@@ -1,22 +1,21 @@
-" フォントを設定
-if has('win32') || has ('win64')
-	set encoding=cp932 " フォント名に開業時日本語名を使うので、一時的に文字コードを変える
-	set guifont=Ricty_Diminished:h10
-	set guifontwide=Osaka－等幅:h10
-	set ambiwidth=double " 文字コードを元に戻す
-endif
-
-" 見た目を設定
-if has('win32') || has ('win64')
-	" autocmd guienter * set transparency=220
-endif
-
-set encoding=utf8
-set visualbell t_vb=
-set formatoptions-=ro " 改行時自動でにコメントアウトするのはなくす
+"
+" Vim8用サンプル gvimrc
+"
+scriptencoding utf-8
+"set guifont=ＭＳ_ゴシック:h9:cSHIFTJIS
+"set guifont=Osaka－等幅:h9:cSHIFTJIS		" 画面表示時のフォント関連の設定
+"set printfont=ＭＳ_ゴシック:h9:cSHIFTJIS	" 印刷時のフォント関連の設定
+set printoptions=number:y,left:3pc,right:3pc,top:3pc,bottom:3pc
+"set columns=90				" windowサイズの設定
+"set lines=35				" windowサイズの設定
+"set guioptions-=m			" メニューバーを非表示
+"set guioptions-=T			" ツールバーを非表示
+"set guioptions-=r			" 右スクロールバーを非表示
+"set guioptions-=L			" 画面縦分割時の左スクロールバーを非表示
+set guicursor+=a:blinkon1700-blinkoff700	" カーソルのブリンクをまったりさせる
+set linespace=0				" 行間を狭くする
 
 set background=dark
-colorscheme hybrid
-" colorscheme molokai
-" colorscheme zenburn
-" colorscheme mirodark
+colorscheme solarized
+
+" vim:set et ts=2 sw=0:
