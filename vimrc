@@ -36,6 +36,7 @@ let &grepprg="grep -rnIH --exclude=.git --exclude-dir=.hg --exclude-dir=.svn --e
 set showmatch                     " 括弧ペアをハイライト
 set matchpairs& matchpairs+=<:>   " HTMLなどの<>をハイライトに追加
 set cursorline                    " 現在の行を強調表示
+set tabstop=2                     " タブの幅をスペース2つ分にする
 
 " 折り返した時に表示行単位で移動できるようにする
 nnoremap j gj
