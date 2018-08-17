@@ -8,6 +8,8 @@ scriptencoding utf-8              " This file's encoding
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
+set pythonthreedll=/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/Python
+
 "===============================================================================
 " 設定の追加はこの行以降でおこなうこと！
 " 分からないオプション名は先頭に ' を付けてhelpしましょう。例:
@@ -127,3 +129,8 @@ catch /E411/
 endtry
 
 " vim:set et ts=2 sw=0:
+
+
+"-------------------------------------------------------------------------------
+" プラグイン
+vmap <Enter> <Plug>(EasyAlign)
