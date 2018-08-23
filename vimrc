@@ -46,6 +46,13 @@ source $VIMRUNTIME/macros/matchit.vim "対応するtagにも%で飛べるよう�
 nnoremap j gj
 nnoremap k gk
 
+" 閉じタグの補完
+augroup MyXML
+  autocmd!
+  autocmd Filetype xml inoremap <buffer> </ </<C-x><C-o>
+  autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
+augroup END
+
 " :grep 等でquickfixウィンドウを開く (:lgrep 等でlocationlistウィンドウを開く)
 "augroup qf_win
 "  autocmd!
