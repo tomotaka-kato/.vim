@@ -37,8 +37,10 @@ set formatoptions+=mM             " 日本語の途中でも折り返す
 let &grepprg="grep -rnIH --exclude=.git --exclude-dir=.hg --exclude-dir=.svn --exclude=tags"
 set showmatch                     " 括弧ペアをハイライト
 set matchpairs& matchpairs+=<:>   " HTMLなどの<>をハイライトに追加
-set cursorline                    " 現在の行を強調表示
+" set cursorline                    " 現在の行を強調表示
 set tabstop=2                     " タブの幅をスペース2つ分にする
+set shiftwidth=2
+source $VIMRUNTIME/macros/matchit.vim "対応するtagにも%で飛べるようにする
 
 " 折り返した時に表示行単位で移動できるようにする
 nnoremap j gj

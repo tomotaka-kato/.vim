@@ -3,7 +3,7 @@
 "
 scriptencoding utf-8
 "set guifont=ＭＳ_ゴシック:h9:cSHIFTJIS
-"set guifont=Osaka－等幅:h9:cSHIFTJIS		" 画面表示時のフォント関連の設定
+set guifont=Osaka－等幅:h9:cSHIFTJIS		" 画面表示時のフォント関連の設定
 "set printfont=ＭＳ_ゴシック:h9:cSHIFTJIS	" 印刷時のフォント関連の設定
 set printoptions=number:y,left:3pc,right:3pc,top:3pc,bottom:3pc
 "set columns=90				" windowサイズの設定
@@ -15,7 +15,7 @@ set printoptions=number:y,left:3pc,right:3pc,top:3pc,bottom:3pc
 set guicursor+=a:blinkon1700-blinkoff700	" カーソルのブリンクをまったりさせる
 set linespace=0				" 行間を狭くする
 
-set background=dark
+set background=light
 colorscheme solarized
 
 " vim:set et ts=2 sw=0:
