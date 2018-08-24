@@ -35,12 +35,22 @@ set nofixendofline                " Windowsのエディタの人達に嫌われ�
 set ambiwidth=double              " ○, △, □等の文字幅をASCII文字の倍にする
 set formatoptions+=mM             " 日本語の途中でも折り返す
 let &grepprg="grep -rnIH --exclude=.git --exclude-dir=.hg --exclude-dir=.svn --exclude=tags"
+source $VIMRUNTIME/macros/matchit.vim "対応するtagにも%で飛べるようにする
+
+" ハイライト
+set hlsearch                      " 検索結果のハイライト
 set showmatch                     " 括弧ペアをハイライト
 set matchpairs& matchpairs+=<:>   " HTMLなどの<>をハイライトに追加
 " set cursorline                    " 現在の行を強調表示
+
+" tab/indent関連
 set tabstop=2                     " タブの幅をスペース2つ分にする
+set smarttab
 set shiftwidth=2
-source $VIMRUNTIME/macros/matchit.vim "対応するtagにも%で飛べるようにする
+
+" 検索設定
+set ignorecase                   " 検索時に大文字小文字を区別しない
+set smartcase                    " 検索文字に大文字が含まれている時のみ区別する
 
 " 折り返した時に表示行単位で移動できるようにする
 nnoremap j gj
