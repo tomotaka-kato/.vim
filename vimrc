@@ -47,6 +47,7 @@ set matchpairs& matchpairs+=<:>   " HTMLなどの<>をハイライトに追加
 set tabstop=2                     " タブの幅をスペース2つ分にする
 set smarttab
 set shiftwidth=2
+set expandtab   " タブをスペースに置き換える
 
 " 検索設定
 set ignorecase                   " 検索時に大文字小文字を区別しない
@@ -55,6 +56,9 @@ set smartcase                    " 検索文字に大文字が含まれている
 " 折り返した時に表示行単位で移動できるようにする
 nnoremap j gj
 nnoremap k gk
+
+" windows幅での折り返し禁止
+set nowrap
 
 " 閉じタグの補完
 augroup MyXML
