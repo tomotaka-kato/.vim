@@ -153,3 +153,5 @@ endtry
 
 " vim:set et ts=2 sw=0:
 
+" leaderをspacに変更
+let mapleader = "\<Space>"
