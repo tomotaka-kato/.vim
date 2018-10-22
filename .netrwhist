@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/tomo/src/haskell'
 let g:netrw_dirhist_2='/Users/tomo/src/fox_practice/TrianglarRelationship_fast'
 let g:netrw_dirhist_3='/Users/tomo/src/fox_practice/Same-Integers/app'
+let g:netrw_dirhist_4='/Users/tomo/src/fox_practice/ElectionReport'
+let g:netrw_dirhist_5='/Users/tomo/src/fox_practice/ElectionReport/test'
+let g:netrw_dirhist_6='/Users/tomo/src/tkao/Application/TradeComplianceSystem/web.front/src/main/resources/static/css/test'
