@@ -6,7 +6,7 @@ scriptencoding utf-8              " This file's encoding
 
 " 推奨設定の読み込み (:h defaults.vim)
 unlet! skip_defaults_vim
-source $VIMRUNTIME/defaults.vim
+source /usr/local/share/vim/vim81/defaults.vim
 
 set pythonthreedll=/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/Python
 
@@ -35,7 +35,7 @@ set nofixendofline                " Windowsのエディタの人達に嫌われ�
 set ambiwidth=double              " ○, △, □等の文字幅をASCII文字の倍にする
 set formatoptions+=mM             " 日本語の途中でも折り返す
 let &grepprg="grep -rnIH --exclude=.git --exclude-dir=.hg --exclude-dir=.svn --exclude=tags"
-source $VIMRUNTIME/macros/matchit.vim "対応するhtml tagにも%で飛べるようにする
+source /usr/local/share/vim/vim81/macros/matchit.vim "対応するhtml tagにも%で飛べるようにする
 
 " ハイライト
 set hlsearch                      " 検索結果のハイライト
